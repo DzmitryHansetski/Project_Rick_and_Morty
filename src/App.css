@@ -1,0 +1,65 @@
+
+/* Pages */
+.pageTitle {
+  margin: 0;
+  color: var(--slate-800);
+  font-weight: 900;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.pageTitleMain {
+  font-size: 100px;
+}
+
+.pageContainer {
+  width: 1400px;
+  margin: 0 auto 50px;
+}
+
+/* Common elements */
+.linkButton {
+  margin: 10px;
+  padding: 10px;
+  color: var(--slate-50);
+  background-color: var(--slate-800);
+  text-decoration: none;
+  font-size: 24px;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid var(--slate-800);
+
+  &:hover {
+      color:  var(--slate-800);
+      background-color: var(--slate-50);
+      border: 2px solid var(--slate-800);
+      cursor: pointer;
+  }
+
+  &:disabled {
+    background-color: var(--slate-200);
+    color: var(--slate-700);
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+}
+
+:root {
+  --slate-50: #f8fafc;
+  --slate-200: #e2e8f0;
+  --slate-200-20: rgba(226, 232, 240, 0.2);
+  --slate-400: #94a3b8;
+  --slate-700: #334155;
+  --slate-800: #1e293b;
+
+  --red-600: #dc2626;
+  --green-500: #22c55e;
+}
+
+.errorMessage {
+  color: var(--red-600);
+  text-align: center;
+  font-size: 50px;
+}

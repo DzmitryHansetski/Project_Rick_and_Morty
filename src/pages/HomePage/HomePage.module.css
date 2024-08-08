@@ -1,0 +1,12 @@
+.linkWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.mainWrapper {
+    background: linear-gradient(var(--slate-200), var(--slate-200-20)), url("../../assets/img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
